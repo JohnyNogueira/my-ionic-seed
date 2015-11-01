@@ -1,0 +1,14 @@
+{
+  "name": "myseed",
+  "app_id": "",
+   "gulpStartupTasks": [
+    "sass",
+    "templatecache",
+    "scripts",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
