@@ -1,5 +1,7 @@
 # My Ionic Seed
-This is my seed to start building apps with Ionic
+This is my seed to start building apps with Ionic	
+
+Using ionic sidemenu template
 
 ## Requirements
 - Ionic Framework:

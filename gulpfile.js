@@ -12,12 +12,13 @@ var uglify = require('gulp-uglify');
 var templateCache = require('gulp-angular-templatecache');
 
 var paths = {
-  sass: ['./scss/**/*.scss'],
-  js: ['./www/app/**/*.js'],
-  templatecache: ['./www/app/**/*.html']
+    sass: ['./scss/**/*.scss'],
+    templatecache: ['./www/app/**/*.html'],
+    js: ['./www/app/**/*.js']
+
 };
 
-gulp.task('default', ['sass'], ['templatecache'], ['scripts']);
+gulp.task('default', ['sass', 'templatecache', 'scripts']);
 
 gulp.task('sass', function(done) {
   gulp.src('./scss/ionic.app.scss')
